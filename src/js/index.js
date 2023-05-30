@@ -34,3 +34,6 @@ function selecionarInformacao(aba) {
     const informacaoMostrada = document.getElementById(idInformacao);
     informacaoMostrada.classList.add("selecionado");
 }
+
+const linksSociais = document.querySelectorAll(".redes-sociais_links");
+console.log(linksSociais)
