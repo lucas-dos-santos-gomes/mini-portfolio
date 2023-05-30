@@ -1,9 +1,10 @@
 x = Math.random();
 if (x < 0.5) {
-    document.documentElement.style.setProperty('--img-url', "url(../img/fundo-programming.jpg)");
-    document.documentElement.style.setProperty('--bg-pst', "center");
-    document.documentElement.style.setProperty('--rosa', "red");
-    document.documentElement.style.setProperty('--verde-azul', "#02a7d0");
+    const styleRoot = document.documentElement.style;
+    styleRoot.setProperty('--img-url', "url(../img/fundo-programming.jpg)");
+    styleRoot.setProperty('--bg-pst', "center");
+    styleRoot.setProperty('--rosa', "red");
+    styleRoot.setProperty('--verde-azul', "#02a7d0");
 }
 
 const abas = document.querySelectorAll(".aba");
