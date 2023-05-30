@@ -36,4 +36,17 @@ function selecionarInformacao(aba) {
 }
 
 const linksSociais = document.querySelectorAll(".redes-sociais_links");
-console.log(linksSociais)
+linksSociais.forEach(item => {
+    item.addEventListener("mouseover", () => {
+        for(let i = 0; i < linksSociais.length; i++) {
+            if(linksSociais[i] != item) {
+                linksSociais[i].style.opacity = "0.5";
+            }
+        }
+    });
+    item.addEventListener("mouseout", () => {
+        for(let i = 0; i < linksSociais.length; i++) {
+            linksSociais[i].style.opacity = "1";
+        }
+    });
+});

@@ -174,7 +174,7 @@ body{
 .redes-sociais_links{
     width: 80%;
     height: 23%;
-    transition: opacity 0.1s ease-in-out, transform 0.25s ease-in-out;
+    transition: opacity 0.3s ease-in-out, transform 0.25s ease-in-out;
 }
 
 .redes-sociais_links:hover{
