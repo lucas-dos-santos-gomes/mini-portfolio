@@ -86,89 +86,89 @@ body{
 }
 
 .conteudo .abas .aba.selecionada{
-    background-color: #262626;
+  background-color: #262626;
 }
 
 .conteudo .abas .aba:hover{
-    background-color: #414141;
+  background-color: #414141;
 }
 
 .conteudo .abas img{
-    width: 30px;
+  width: 30px;
 }
 
 .conteudo .informacoes-abas{
-    background-color: #262626;
+  background-color: #262626;
 }
 
 .conteudo .informacoes-abas .informacao{
-    min-height: 270px;
-    padding: 15px 17px;
-    display: none;
+  min-height: 270px;
+  padding: 15px 17px;
+  display: none;
 }
 
 .conteudo .informacoes-abas .informacao.scroll{
-    padding: 15px 10px 15px 17px;
+  padding: 15px 10px 15px 17px;
 }
 
 .conteudo .informacoes-abas .informacao.selecionado{
-    display: block;
+  display: block;
 }
 
 .conteudo .informacoes-abas .informacao .sub-titulo{
-    font-size: 22px;
-    margin-bottom: 15px;
-    text-align: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .conteudo .informacoes-abas .informacao .descricao{
-    font-size: 20px;
-    max-height: 200px;
-    overflow-y: auto;
-    padding-right: 5px;
+  font-size: 20px;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 5px;
 }
 
 .descricao::-webkit-scrollbar{
-    width: 10px;
+  width: 10px;
 }
 
 .descricao::-webkit-scrollbar-track{
-    background: #070d12;
-    border-radius: 50px;
+  background: #070d12;
+  border-radius: 50px;
 }
 
 .descricao::-webkit-scrollbar-thumb{
-    background-color: var(--rosa);
-    border-radius: 20px;
-    border: 3px solid #070d12;
+  background-color: var(--rosa);
+  border-radius: 20px;
+  border: 3px solid #070d12;
 }
 
 .descricao .paragrafo{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .descricao .paragrafo.espaco{
-    margin: 20px 0 10px 0;
-    padding-top: 20px;
-    border-top: 2px dashed white;
+  margin: 20px 0 10px 0;
+  padding-top: 20px;
+  border-top: 2px dashed white;
 }
 
 .lista-conhecimentos{
-    margin-left: 5px;
-    list-style: circle;
-    list-style-position: inside;
+  margin-left: 5px;
+  list-style: circle;
+  list-style-position: inside;
 }
 
 .verde-azul{
-    color: var(--verde-azul);
+  color: var(--verde-azul);
 }
 
 .redes-sociais{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
 }
 
 .redes-sociais_links{
