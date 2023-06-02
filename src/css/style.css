@@ -172,36 +172,36 @@ body{
 }
 
 .redes-sociais_links{
-    width: 80%;
-    height: 23%;
-    transition: opacity 0.3s ease-in-out, transform 0.25s ease-in-out;
+  width: 80%;
+  height: 23%;
+  transition: opacity 0.3s ease-in-out, transform 0.25s ease-in-out;
 }
 
 .redes-sociais_links:hover{
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .redes-sociais_links a{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .redes-sociais_links a .bloco{
-    color: #f3f3f3;
-    font-size: 20px;
+  color: #f3f3f3;
+  font-size: 20px;
 }
 
 .redes-sociais_links .curriculo{
-    background-color: #06c185;
+  background-color: #06c185;
 }
 
 .redes-sociais_links .linkedin{
-    background-color: #1d87bd;
+  background-color: #1d87bd;
 }
 
 .redes-sociais_links .github{
-    background-color: #6e6d6d;
+  background-color: #6e6d6d;
 }
