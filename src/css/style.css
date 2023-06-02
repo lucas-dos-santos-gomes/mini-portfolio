@@ -1,88 +1,88 @@
 :root {
-    --img-url: url(../img/fundo-neon-city.gif);
-    --bg-pst: center top;
-    --rosa: #e228d8;
-    --verde-azul: #02d08f;
+  --img-url: url(../img/fundo-neon-city.gif);
+  --bg-pst: center top;
+  --rosa: #e228d8;
+  --verde-azul: #02d08f;
 }
 
 body{
-    background-image: var(--img-url);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: var(--bg-pst);
+  background-image: var(--img-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: var(--bg-pst);
 
-    font-family: 'VT323', monospace;
-    color: #f3f3f3;
-    font-size: 18px;
-    padding: 45px;
+  font-family: 'VT323', monospace;
+  color: #f3f3f3;
+  font-size: 18px;
+  padding: 45px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 
-    cursor: default;
-    user-select: none;
+  cursor: default;
+  user-select: none;
 }
 
 .cartao{
-    background-image: url(../img/neve.gif);
-    background-color: #070d12;
-    width: 370px;
-    border: 4px solid var(--rosa);
-    border-radius: 10px;
-    overflow: hidden;
+  background-image: url(../img/neve.gif);
+  background-color: #070d12;
+  width: 370px;
+  border: 4px solid var(--rosa);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .minhas-informacoes{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .minhas-informacoes .foto-perfil{
-    width: 96px;
-    height: 96px;
+  width: 96px;
+  height: 96px;
 
-    border: 4px solid var(--verde-azul);
-    border-radius: 100%;
+  border: 4px solid var(--verde-azul);
+  border-radius: 100%;
 }
 
 .minhas-informacoes .nome{
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .minhas-informacoes .cargo{
-    font-size: 23px;
-    font-weight: 500;
-    color: #b8bbc5;
+  font-size: 23px;
+  font-weight: 500;
+  color: #b8bbc5;
 }
 
 .minhas-informacoes .hover{
-    transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
 }
 
 .minhas-informacoes .hover:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .conteudo{
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .conteudo .abas{
-    display: flex;
+  display: flex;
 }
 
 .conteudo .abas .aba{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 7px 0;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 7px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .conteudo .abas .aba.selecionada{
