@@ -41,3 +41,7 @@ linksSociais.forEach(item => {
     }
   });
 });
+
+window.onload = () => {
+  alert("Pressione 'Espaço' ou dê dois cliques na tela para trocar o fundo");
+};
