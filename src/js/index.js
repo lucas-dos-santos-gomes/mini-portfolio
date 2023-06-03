@@ -1,15 +1,12 @@
 const abas = document.querySelectorAll(".aba");
-let tabindex = 0;
 
 abas.forEach(aba => {
-  aba.addEventListener;("click", function(){
+  aba.addEventListener("click", function(){
     if (aba.classList.contains("selecionada")) {
       return;
     }
     return selecionarAba(aba);
   });
-  aba.setAttribute("tabindex", tabindex);
-  tabindex++;
 });
 
 function selecionarAba(aba) {
