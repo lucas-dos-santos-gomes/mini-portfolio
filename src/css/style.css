@@ -163,6 +163,14 @@ body {
   color: var(--verde-azul);
 }
 
+.lista-projetos {}
+
+.lista-projetos_itens {}
+
+.lista-projetos_itens a {}
+
+.lista-projetos_itens img {}
+
 .redes-sociais {
   display: flex;
   flex-direction: column;
