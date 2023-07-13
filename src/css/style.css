@@ -67,6 +67,7 @@ body {
 
 .minhas-informacoes .nome {
   font-size: 28px;
+  letter-spacing: 2px;
 }
 
 .minhas-informacoes .cargo {
