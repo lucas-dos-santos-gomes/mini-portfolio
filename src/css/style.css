@@ -29,11 +29,12 @@ body {
   font-family: 'VT323', monospace;
   color: #f3f3f3;
   font-size: 18px;
-  padding: 45px;
+  padding: 0 30px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 300px;
   min-height: 100vh;
 
   cursor: default;
@@ -68,20 +69,24 @@ body {
 .minhas-informacoes .nome {
   font-size: 28px;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .minhas-informacoes .cargo {
   font-size: 23px;
   font-weight: 500;
   color: #b8bbc5;
+  text-align: center;
 }
 
 .minhas-informacoes .hover {
   transition: transform 0.2s ease-in;
 }
 
-.minhas-informacoes .hover:hover {
-  transform: scale(1.1);
+@media screen and (min-width: 769px) {
+  .minhas-informacoes .hover:hover {
+    transform: scale(1.1);
+  }
 }
 
 .conteudo {
@@ -179,7 +184,6 @@ body {
 .lista-projetos_itens {
   margin: auto;
   width: 98%;
-  height: 200px;
   scroll-snap-align: center;
 }
 
@@ -187,12 +191,10 @@ body {
   position: relative;
   display: inline-block;
   width: 100%;
-  height: 100%;
 }
 
 .lista-projetos_itens img {
   width: 100%;
-  height: 100%;
   border-radius: 15px;
   filter: brightness(0.3);
 }
